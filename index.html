@@ -38,6 +38,13 @@
             return true;
           }
         }, true);
+        // Ensure trailing slash on GitHub Pages repository root so relative paths resolve cleanly
+        if (window.location.hostname.endsWith('github.io')) {
+          var p = window.location.pathname;
+          if (p && !p.endsWith('/') && !p.includes('.')) {
+            window.location.replace(window.location.origin + p + '/' + window.location.search + window.location.hash);
+          }
+        }
       })();
     </script>
 
