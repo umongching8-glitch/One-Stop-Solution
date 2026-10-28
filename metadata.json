@@ -1,0 +1,6 @@
+{
+  "name": "One Stop Solution - Digital Services & AI Hub",
+  "description": "Premium digital marketplace for Social Media Growth, AI Subscriptions, and Creative Graphic Design with real-time order tracking and admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
